@@ -1,0 +1,5 @@
+This repository contains implementations of integer root algorithms.
+See https://www.akalin.com/computing-isqrt and
+https://www.akalin.com/computing-iroot for analyses.
+
+For now, only Go implementations are provided.
