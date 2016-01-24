@@ -1,3 +1,4 @@
 This repository contains Go and Javascript implementations of integer
-root algorithms.  See https://www.akalin.com/computing-isqrt and
+root algorithms. See the README files in those directories for
+details, and see https://www.akalin.com/computing-isqrt and
 https://www.akalin.com/computing-iroot for analyses.
