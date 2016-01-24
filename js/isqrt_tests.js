@@ -1,12 +1,12 @@
 'use strict';
 
-describe('isqrt', function() {
-  var bigIntegerEquality = function(first, second) {
-    if (first instanceof BigInteger && second instanceof BigInteger) {
-      return first.equals(second);
-    }
-  };
+var bigIntegerEquality = function(first, second) {
+  if (first instanceof BigInteger && second instanceof BigInteger) {
+    return first.equals(second);
+  }
+};
 
+describe('isqrt', function() {
   beforeEach(function() {
     jasmine.addCustomEqualityTester(bigIntegerEquality);
   });
